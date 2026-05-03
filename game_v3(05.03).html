@@ -7,8 +7,8 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="theme-color" content="#06070d">
-<link rel="manifest" href="Manifest.json">
-<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="android-chrome-192x192.png">
 <title>💰 錢途無量</title>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
@@ -6463,7 +6463,7 @@ _observer.observe(_observeTarget, { childList: true, subtree: true });
     window.addEventListener('load', () => {
       navigator.serviceWorker.register('./sw.js')
         .then(() => console.log('✅ Service Worker 註冊成功'))
-        .catch(err => console.error('❌ Service Worker 失敗:', err));
+        .catch(err => console.error('❌ 失敗:', err));
     });
   }
 </script>
